@@ -1,0 +1,1 @@
+Facebook listings require link-style posts with preview image, headline, and 110-character description segments, derived from property address, price, and summary; ensure payloads include tracking parameters and are packaged for Graph API batch publishing.

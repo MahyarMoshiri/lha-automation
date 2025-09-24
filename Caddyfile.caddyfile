@@ -1,0 +1,19 @@
+{
+  email {$ACME_EMAIL}
+  # Optional performance/stability tuning could go here
+}
+
+{$N8N_HOST} {
+  encode gzip zstd
+
+  # Security headers
+  header {
+    Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    X-Content-Type-Options "nosniff"
+    Referrer-Policy "strict-origin-when-cross-origin"
+    Permissions-Policy "camera=(), geolocation=(), microphone=()"
+  }
+
+  # Proxy to n8n service inside the docker network
+  reverse_proxy n8n:5678
+}

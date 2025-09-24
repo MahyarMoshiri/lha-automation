@@ -1,0 +1,12 @@
+{
+  "name": "P0 Alto Ingest (TEMPLATE)",
+  "nodes": [
+    { "parameters": {}, "name": "Cron Start (placeholder)", "type": "n8n-nodes-base.cron", "typeVersion": 1, "position": [0,0] },
+    { "parameters": {}, "name": "HTTP Alto (placeholder)", "type": "n8n-nodes-base.httpRequest", "typeVersion": 4, "position": [260,0] },
+    { "parameters": {}, "name": "XML to JSON (placeholder)", "type": "n8n-nodes-base.xml", "typeVersion": 1, "position": [520,0] },
+    { "parameters": {}, "name": "Map & Upsert (placeholder)", "type": "n8n-nodes-base.function", "typeVersion": 2, "position": [780,0] }
+  ],
+  "connections": { "Cron Start (placeholder)": { "main": [[{ "node": "HTTP Alto (placeholder)", "type": "main", "index": 0 }]] },
+    "HTTP Alto (placeholder)": { "main": [[{ "node": "XML to JSON (placeholder)", "type": "main", "index": 0 }]] },
+    "XML to JSON (placeholder)": { "main": [[{ "node": "Map & Upsert (placeholder)", "type": "main", "index": 0 }]] } }
+}

@@ -1,0 +1,1 @@
+Gumtree BLM feed payloads must adhere to the full estate agency schema with mandatory price, address, property type, and image URLs, encoded as XML with ISO8601 dates and measurement units in metric, ready for nightly bulk upload.

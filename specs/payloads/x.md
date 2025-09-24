@@ -1,0 +1,1 @@
+X postings should generate text-first payloads capped at 280 characters, include shortened URLs, emojis only when approved, and attach one landscape image via media_id referencing property_media entries, respecting platform posting cadence.

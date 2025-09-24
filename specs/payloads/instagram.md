@@ -1,0 +1,1 @@
+Instagram payloads must focus on high-quality square imagery, concise captions under 2,200 characters, and include property hashtags plus location tags mapped from Supabase fields; ensure media URLs resolve to JPG/MP4 and that scheduling respects platform rate limits.

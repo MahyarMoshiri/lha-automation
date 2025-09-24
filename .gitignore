@@ -1,0 +1,11 @@
+# env & secrets
+.env
+.env.*
+!.env.example
+# node/docker noise
+node_modules/
+dist/
+.tmp/
+.DS_Store
+# backups
+infra/backups/*.tar.gz
